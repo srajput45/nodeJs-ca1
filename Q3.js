@@ -9,9 +9,9 @@ http
         var wordsArray = splitByWords(data);
         var chrCount = charCount(data);
         var msg =
-          "words : " +
+          "Total no. of words : " +
           wordsArray.length +
-          " & char :" +
+          " & Total char :" +
           chrCount;
         fs.writeFile("./resultLog.txt", msg, function (err) {
           if (err) throw err;
